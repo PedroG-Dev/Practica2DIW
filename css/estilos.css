@@ -50,9 +50,6 @@ a {
   color: white;
 }
 
-.inicio__nav-enlace:hover {
-}
-
 /* Estilos para el header de la pagina de inicio */
 
 .inicio__header {
@@ -85,7 +82,7 @@ a {
   color: white;
 }
 
-.inicio__footer-legal {
+.legal {
   font-size: 11px;
   display: flex;
   justify-content: space-around;
@@ -93,6 +90,15 @@ a {
   margin: 0 auto;
   padding-bottom: 20px;
 }
+
+/* .inicio__footer-legal {
+  font-size: 11px;
+  display: flex;
+  justify-content: space-around;
+  width: 325px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+} */
 
 .inicio__footer-creador {
   color: white;
@@ -102,4 +108,116 @@ a {
 
 .inicio__footer-creditos {
   font-size: 9px;
+}
+
+/* Aqui empiezan los estilso generales y para el resto de paginas */
+
+.header {
+  background-color: #000000;
+}
+
+.header__logo-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.header__titulo {
+  font-size: 35px;
+  color: white;
+  letter-spacing: -3px;
+}
+
+.header__titulo a {
+  color: white;
+}
+
+.logo {
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.header__nav {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.header__nav-enlace {
+  color: white;
+}
+
+.header__nav-enlace:hover {
+  color: #6bdec8;
+}
+
+.legal--compartido {
+  margin: 0;
+  width: 400px;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.creador {
+  color: white;
+  font-size: 10px;
+  padding-bottom: 45px;
+}
+
+.legal__enlace {
+  color: white;
+}
+
+.legal__enlace--compartido {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.footer__container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.activa {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Cambia el grosor del subrayado */
+  text-underline-offset: 10px; /* Cambia la distancia del subrayado al texto */
+}
+
+/* Estilos de pagina que-es-la-ceramica */
+.article__header--titulo {
+  text-align: center;
+  padding: 35px;
+}
+
+.article__header--subtitulo {
+  padding-bottom: 35px;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.youtube-video-inserted {
+  text-align: center;
+}
+
+.youtube-video-inserted figcaption {
+  padding-top: 3px;
+  padding-right: 290px;
+  font-size: 10px;
 }
