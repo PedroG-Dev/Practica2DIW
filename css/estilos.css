@@ -221,3 +221,56 @@ a {
   padding-right: 290px;
   font-size: 10px;
 }
+
+.article__section--titulo {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.aticle__section-parrafo {
+  margin: 0.75rem 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.article__section-lista-desordenada {
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.article__section-lista-desordenada li {
+  margin-bottom: 10px;
+}
+
+.article__section-lista-definicion {
+  margin: 20px 30px;
+}
+
+.article__section-lista-definicion dt {
+  font-weight: 700;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.article__section-lista-definicion dd {
+  margin-left: 30px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.article__footer {
+  margin-bottom: 40px;
+}
+
+.article__footer-texto {
+  font-size: 10px;
+}
+
+.article__footer-enlace {
+  color: #942c0b;
+  border-bottom: 1px dotted #942c0b;
+}
+
+.article__footer-enlace:hover {
+  border-bottom: 1px solid #942c0b;
+}
