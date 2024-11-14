@@ -85,7 +85,7 @@
             <legend>Otras informaciones</legend>
             <fieldset>
               <legend>¿Has hecho otros cursos con nosotros? *</legend>
-              <div class="radio-grupo">
+              <div class="radio-grupo radio-grupo--margin">
                 <input type="radio" id="curso-si" name="curso" value="si" />
                 <label for="curso-si">Sí</label>
               </div>
@@ -102,6 +102,60 @@
               <textarea name="texto-area" id="texto-area"></textarea>
             </div>
           </fieldset>
+          <fieldset>
+            <legend>Elige un método de pago *</legend>
+            <div class="radio-grupo">
+              <input
+                type="radio"
+                id="metodo-transferencia"
+                name="metodo-pago"
+                value="Transferencia"
+              />
+              <label for="metodo-transferencia">Transferencia</label>
+            </div>
+
+            <div class="radio-grupo">
+              <input
+                type="radio"
+                id="metodo-tarjeta"
+                name="metodo-pago"
+                value="Tarjeta"
+              />
+              <label for="metodo-tarjeta">Tarjeta de débito - crédito</label>
+            </div>
+
+            <div class="radio-grupo">
+              <input
+                type="radio"
+                id="metodo-efectivo"
+                name="metodo-pago"
+                value="Efectivo"
+              />
+              <label for="metodo-efectivo">En efectivo</label>
+            </div>
+          </fieldset>
+          <div class="informacion-privacidad">
+            INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE EL
+            <strong>TALLER. Finalidades:</strong>
+            recogida de datos para la inscripción como socio del interesado.
+            <strong>Legitimación:</strong> Consentimiento del interesado.
+            <strong>Destinatarios:</strong> No están previstas cesiones de datos
+            a terceros, excepto obligación legal.
+            <strong>Derechos:</strong> Puede retirar su consentimiento en
+            cualquier momento, así como acceder, rectificar, suprimir sus datos
+            y otros derechos dirigiéndose a <a href="#">info@eltaller.es</a>.
+            <strong>Información Adicional:</strong> Puede ampliar la información
+            en el enlace de <a href="#">Aviso Legal</a> y
+            <a href="#">Política de privacidad</a>.
+          </div>
+          <div class="aceptar-politica">
+            <input id="politica" type="checkbox" />
+            <label for="politica"
+              >He leido y acepto la
+              <a href="#">política de privacidad</a> *</label
+            >
+          </div>
+          <input class="btn-enviar" type="submit" value="INSCRÍBEME" />
         </form>
       </div>
     </main>

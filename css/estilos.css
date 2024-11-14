@@ -91,15 +91,6 @@ a {
   padding-bottom: 20px;
 }
 
-/* .inicio__footer-legal {
-  font-size: 11px;
-  display: flex;
-  justify-content: space-around;
-  width: 325px;
-  margin: 0 auto;
-  padding-bottom: 20px;
-} */
-
 .inicio__footer-creador {
   color: white;
   font-size: 9px;
@@ -198,8 +189,8 @@ a {
 
 .activa {
   text-decoration: underline;
-  text-decoration-thickness: 2px; /* Cambia el grosor del subrayado */
-  text-underline-offset: 10px; /* Cambia la distancia del subrayado al texto */
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
 }
 
 /* Estilos de pagina que-es-la-ceramica */
@@ -220,8 +211,8 @@ a {
 
 .youtube-video-inserted figcaption {
   padding-top: 3px;
-  padding-right: 290px;
-  font-size: 10px;
+  font-size: 8px;
+  text-align: left;
 }
 
 .article__section--titulo {
@@ -308,12 +299,12 @@ a {
   margin-bottom: 30px;
 }
 
-.article__header-figure-texto a {
+.container a {
   color: #942c0b;
   border-bottom: 1px dotted #942c0b;
 }
 
-.article__header-figure-texto a:hover {
+.container a:hover {
   border-bottom: 1px solid #942c0b;
 }
 
@@ -336,7 +327,6 @@ a {
 .article__table-titulo {
   text-align: center;
   font-weight: 400;
-  background-color: none;
   font-size: 16px;
 }
 
@@ -374,31 +364,26 @@ tr {
   margin-top: 40px;
 }
 
-/* Estilo general para el formulario */
 form {
   width: 80%;
 }
 
-/* Estilo para las filas del formulario (dos columnas) */
 .form-fila-detalles {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
 }
 
-/* Estilo para cada grupo de campos */
 .form-grupo-detalles {
-  flex: 0 0 48%; /* Cada campo ocupará el 48% del ancho */
+  flex: 0 0 48%;
 }
 
-/* Espaciado y ajuste para las etiquetas */
 label {
   display: block;
   margin-bottom: 5px;
   font-size: 12px;
 }
 
-/* Estilo para los inputs y selects */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -409,7 +394,6 @@ select {
   border: 1px solid black;
 }
 
-/* Estilo para el fieldset y legend */
 fieldset {
   border: 1px solid black;
   padding: 20px;
@@ -426,12 +410,8 @@ legend {
   align-items: center;
   gap: 4px;
   font-size: 12px;
+  margin-bottom: 13px;
 }
-
-.radio-grupo:first-of-type {
-  margin-bottom: 20px;
-}
-
 .radio-grupo label {
   margin: 0;
 }
@@ -446,4 +426,25 @@ legend {
   resize: none;
   margin-top: 10px;
   padding: 10px;
+}
+
+.informacion-privacidad {
+  margin: 20px 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.aceptar-politica {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.btn-enviar {
+  padding: 10px 15px;
+  color: white;
+  background-color: #942c0b;
+  border: none;
+  margin-bottom: 30px;
+  font-size: 13px;
 }
