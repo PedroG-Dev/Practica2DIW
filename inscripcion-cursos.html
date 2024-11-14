@@ -29,7 +29,82 @@
         >
       </nav>
     </header>
-    <main class="container"></main>
+    <main class="container">
+      <div class="contenedor-form">
+        <h2>Inscripción a los cursos</h2>
+        <form action="#" class="formulario">
+          <fieldset>
+            <legend>Detalles de la inscripción</legend>
+            <div class="form-fila-detalles">
+              <div class="form-grupo-detalles">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" required />
+              </div>
+
+              <div class="form-grupo-detalles">
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" id="apellidos" name="apellidos" required />
+              </div>
+            </div>
+
+            <div class="form-fila-detalles">
+              <div class="form-grupo-detalles">
+                <label for="correo">Correo Electrónico *</label>
+                <input type="email" id="correo" name="correo" required />
+              </div>
+
+              <div class="form-grupo-detalles">
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" required />
+              </div>
+            </div>
+
+            <div class="form-fila-detalles">
+              <div class="form-grupo-detalles">
+                <label for="fecha-nacimiento">Fecha de Nacimiento *</label>
+                <input
+                  type="date"
+                  id="fecha-nacimiento"
+                  name="fecha-nacimiento"
+                  required
+                />
+              </div>
+
+              <div class="form-grupo-detalles">
+                <label for="curso">Curso *</label>
+                <select id="curso" name="curso" required>
+                  <option value="">Selecciona un curso</option>
+                  <option value="torno">Torno Cerámica</option>
+                  <option value="modelado">Modelado, Esmaltes</option>
+                  <option value="joyeria">Joyería Cerámica</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Otras informaciones</legend>
+            <fieldset>
+              <legend>¿Has hecho otros cursos con nosotros? *</legend>
+              <div class="radio-grupo">
+                <input type="radio" id="curso-si" name="curso" value="si" />
+                <label for="curso-si">Sí</label>
+              </div>
+
+              <div class="radio-grupo">
+                <input type="radio" id="curso-no" name="curso" value="no" />
+                <label for="curso-no">No</label>
+              </div>
+            </fieldset>
+            <div class="text-area-grupo">
+              <label for="texto-area">
+                ¿Quieres comentar o preguntar algo?</label
+              >
+              <textarea name="texto-area" id="texto-area"></textarea>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
     <footer class="footer">
       <div class="footer__container">
         <div class="legal legal--compartido">
