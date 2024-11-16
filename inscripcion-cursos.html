@@ -41,12 +41,30 @@
             <div class="form-fila-detalles">
               <div class="form-grupo-detalles">
                 <label for="nombre">Nombre *</label>
-                <input type="text" id="nombre" name="nombre" required />
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  required
+                  minlength="2"
+                  maxlength="64"
+                  pattern="^[A-Za-zÀ-ÿ'\-\s]{2,64}$"
+                  title="El nombre debe contener solo letras, apóstrofes o guiones, y tener entre 2 y 64 caracteres."
+                />
               </div>
 
               <div class="form-grupo-detalles">
                 <label for="apellidos">Apellidos *</label>
-                <input type="text" id="apellidos" name="apellidos" required />
+                <input
+                  type="text"
+                  id="apellidos"
+                  name="apellidos"
+                  required
+                  minlength="2"
+                  maxlength="128"
+                  pattern="^[A-Za-zÀ-ÿ'\-\s]{2,128}$"
+                  title="Los apellidos deben contener solo letras, apóstrofes o guiones, y tener entre 2 y 128 caracteres."
+                />
               </div>
             </div>
 
@@ -58,7 +76,14 @@
 
               <div class="form-grupo-detalles">
                 <label for="telefono">Teléfono *</label>
-                <input type="tel" id="telefono" name="telefono" required />
+                <input
+                  type="tel"
+                  id="telefono"
+                  name="telefono"
+                  required
+                  pattern="[0-9]{9,}"
+                  title="Introduce un número de teléfono válido con al menos 9 dígitos."
+                />
               </div>
             </div>
 
