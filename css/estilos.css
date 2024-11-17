@@ -206,7 +206,14 @@ a {
 }
 
 .youtube-video-inserted {
-  text-align: center;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.youtube-video-inserted iframe {
+  width: 100%;
+  height: 315px;
 }
 
 .youtube-video-inserted figcaption {
